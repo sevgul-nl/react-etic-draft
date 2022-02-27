@@ -39,5 +39,12 @@ pipeline {
                 }
             }
         }
+        //stage('Run') {
+    //   steps {
+    //        script {
+    //            sh 'docker run -d -p 2200:2200 --rm --name etic-draft sevgulnl/react-etic-draft'
+    //        }
+    //    }
+    //}
     }
 }
