@@ -13,7 +13,7 @@ pipeline {
             }
             steps {
                 sh 'npm install'
-                sh 'npm run build'
+                sh 'npm  build'
             }
         }
         stage('Test') {
@@ -22,7 +22,7 @@ pipeline {
                     image 'node:16'
                 }
             }
-            steps {  sh 'npm run test'  }
+            steps {  sh 'npm test'  }
         }
     }
 }
