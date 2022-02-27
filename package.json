@@ -1,4 +1,5 @@
 {
+  "homepage": "http://localhost/etic",
   "name": "react-etic-draft",
   "version": "0.1.0",
   "private": true,
